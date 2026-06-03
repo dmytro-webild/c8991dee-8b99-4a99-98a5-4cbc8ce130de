@@ -59,13 +59,13 @@ export default function WebAgency2Page() {
             carouselPosition="right"
             leftCarouselItems={[
               { imageSrc: "http://img.b2bpic.net/free-photo/mortgage-house-loan-website-login-graphic-concept_53876-134005.jpg", imageAlt: "AI sales dashboard" },
-              { imageSrc: "https://img.freepik.com/free-photo/real-estate-agent-holding-tablet-with-ai-interface_23-2151322055.jpg", imageAlt: "Real estate agent using AI tablet" },
-              { imageSrc: "https://img.freepik.com/free-photo/futuristic-real-estate-concept_23-2151322047.jpg", imageAlt: "Futuristic real estate concept" }
+              { imageSrc: "https://img.b2bpic.net/free-vector/blue-technology-circuit-diagram-with-glowing-line-lights_1017-17266.jpg?id=3922435", imageAlt: "Real estate agent using AI tablet" },
+              { imageSrc: "https://img.b2bpic.net/premium-photo/man-hands-with-web-30-technology-digital-tech-future-30-technology-global-network-blockchain-crypto-currency-global-futuristic-website-internet-development-data_1137986-1558.jpg?id=145099533", imageAlt: "Futuristic real estate concept" }
             ]}
             rightCarouselItems={[
-              { imageSrc: "https://img.freepik.com/premium-photo/futuristic-ai-dashboard-real-estate-office_849788-2983.jpg?_wi=1", imageAlt: "Modern real estate office with AI overlay" },
-              { imageSrc: "https://img.freepik.com/free-photo/fast-lead-response-illustration_23-2151322045.jpg", imageAlt: "Fast lead response illustration" },
-              { imageSrc: "https://img.freepik.com/free-photo/automated-follow-up-system_23-2151322049.jpg", imageAlt: "Automated follow-up system" }
+              { imageSrc: "https://img.b2bpic.net/premium-photo/business-woman-thinking-tablet-with-ideas-plan-deadline-as-project-manager-web-agency-communication-female-person-app-working-tech-connection-as-professional-company_590464-387270.jpg?id=288443928", imageAlt: "Modern real estate office with AI overlay" },
+              { imageSrc: "https://img.b2bpic.net/free-photo/engineer-wearing-vr-headset-data-center-installing-software_482257-116005.jpg?id=414767117", imageAlt: "Fast lead response illustration" },
+              { imageSrc: "https://img.b2bpic.net/premium-photo/businesswoman-shaking-hands-with-businessman-desk-office_265022-112864.jpg?id=416438581", imageAlt: "Automated follow-up system" }
             ]}
             carouselItemClassName="!aspect-[4/5]"
           />
