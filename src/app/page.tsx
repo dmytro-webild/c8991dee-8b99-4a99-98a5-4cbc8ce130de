@@ -8,7 +8,7 @@ import FeatureBento from "@/components/sections/feature/FeatureBento";
 import FeatureCardTwentySix from "@/components/sections/feature/FeatureCardTwentySix";
 import FeatureCardSixteen from "@/components/sections/feature/FeatureCardSixteen";
 import MetricCardOne from "@/components/sections/metrics/MetricCardOne";
-import TextAbout from "@/components/sections/about/TextAbout";
+import MetricSplitMediaAbout from "@/components/sections/about/MetricSplitMediaAbout";
 import FaqSplitText from "@/components/sections/faq/FaqSplitText";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterBase from "@/components/sections/footer/FooterBase";
@@ -59,13 +59,13 @@ export default function WebAgency2Page() {
             carouselPosition="right"
             leftCarouselItems={[
               { imageSrc: "http://img.b2bpic.net/free-photo/mortgage-house-loan-website-login-graphic-concept_53876-134005.jpg", imageAlt: "AI sales dashboard" },
-              { imageSrc: "asset://real-estate-agent-ai-tablet", imageAlt: "Real estate agent using AI tablet" },
-              { imageSrc: "asset://futuristic-real-estate-concept", imageAlt: "Futuristic real estate concept" },
+              { imageSrc: "https://img.freepik.com/free-photo/real-estate-agent-holding-tablet-with-ai-interface_23-2151322055.jpg", imageAlt: "Real estate agent using AI tablet" },
+              { imageSrc: "https://img.freepik.com/free-photo/futuristic-real-estate-concept_23-2151322047.jpg", imageAlt: "Futuristic real estate concept" }
             ]}
             rightCarouselItems={[
-              { imageSrc: "asset://real-estate-ai-office-1", imageAlt: "Modern real estate office with AI overlay" },
-              { imageSrc: "asset://fast-lead-response-illustration", imageAlt: "Fast lead response illustration" },
-              { imageSrc: "asset://automated-follow-up-system", imageAlt: "Automated follow-up system" },
+              { imageSrc: "https://img.freepik.com/premium-photo/futuristic-ai-dashboard-real-estate-office_849788-2983.jpg", imageAlt: "Modern real estate office with AI overlay" },
+              { imageSrc: "https://img.freepik.com/free-photo/fast-lead-response-illustration_23-2151322045.jpg", imageAlt: "Fast lead response illustration" },
+              { imageSrc: "https://img.freepik.com/free-photo/automated-follow-up-system_23-2151322049.jpg", imageAlt: "Automated follow-up system" }
             ]}
             carouselItemClassName="!aspect-[4/5]"
           />
@@ -79,13 +79,13 @@ export default function WebAgency2Page() {
             animationType="slide-up"
             negativeCard={{
               items: [
-                "Slow Responses & Missed Opportunities",              "Manual Follow-Ups Fall Through",              "Disorganized Sales Pipeline",              "Lost Revenue & Wasted Leads"
-              ],
+                "Slow Responses & Missed Opportunities",                "Manual Follow-Ups Fall Through",                "Disorganized Sales Pipeline",                "Lost Revenue & Wasted Leads"
+              ]
             }}
             positiveCard={{
               items: [
-                "Instant Lead Response 24/7",              "Automated Multi-Channel Follow-Ups",              "Crystal-Clear CRM Pipeline",              "Maximized Conversions & ROI"
-              ],
+                "Instant Lead Response 24/7",                "Automated Multi-Channel Follow-Ups",                "Crystal-Clear CRM Pipeline",                "Maximized Conversions & ROI"
+              ]
             }}
           />
         </div>
@@ -96,17 +96,17 @@ export default function WebAgency2Page() {
             textboxLayout="default"
             useInvertedBackground={false}
             animationType="slide-up"
-            buttons={[{ text: "See It in Action – Book a Demo", href: "#contact" }]
-            }
+            buttons={[{ text: "See It in Action – Book a Demo", href: "#contact" }]}
             buttonAnimation="slide-up"
             features={[
               {
-                title: "Your AI Sales System Launch",              description: "Seamless 4-Step Implementation",              bentoComponent: "timeline",              heading: "Implementation Phases",              subheading: "From Audit to Optimization",              items: [
+                title: "Your AI Sales System Launch",                description: "Seamless 4-Step Implementation",                bentoComponent: "timeline",                heading: "Implementation Phases",                subheading: "From Audit to Optimization",                items: [
                   { label: "1. Audit", detail: "Analyze current sales process & identify bottlenecks." },
                   { label: "2. Build", detail: "Configure custom automation (CRM, chatbots, follow-ups)." },
                   { label: "3. Launch", detail: "Integrate, train your team, and go live." }
                 ],
-                completedLabel: "System Live"},
+                completedLabel: "System Live"
+              }
             ]}
           />
         </div>
@@ -116,20 +116,22 @@ export default function WebAgency2Page() {
             description="Choose the level that fits your needs. Prices are starting ranges; final quote customized per client."
             textboxLayout="default"
             useInvertedBackground={false}
-            buttons={[{ text: "Get a Custom Quote", href: "#contact" }]
-            }
+            buttons={[{ text: "Get a Custom Quote", href: "#contact" }]}
             buttonAnimation="slide-up"
             cardClassName="!h-auto aspect-video"
             features={[
               {
-                title: "Starter (~$1,000–$1,500)",              description: "Great for small agencies starting to automate. Includes: Lead Capture & Response Automation, Basic Follow-Up Email Sequences, CRM Pipeline Setup.",              imageSrc: "asset://service-starter",              imageAlt: "Starter package illustration",              buttonIcon: ArrowUpRight,
-                buttonHref: "#contact"},
+                title: "Starter (~$1,000–$1,500)",                description: "Great for small agencies starting to automate. Includes: Lead Capture & Response Automation, Basic Follow-Up Email Sequences, CRM Pipeline Setup.",                imageSrc: "https://img.freepik.com/free-photo/starter-package-illustration_23-2151322050.jpg",                imageAlt: "Starter package illustration",                buttonIcon: ArrowUpRight,
+                buttonHref: "#contact"
+              },
               {
-                title: "Growth (~$1,500–$2,500)",              description: "Ideal for growing teams. Includes: Everything in Starter, plus Advanced Multi-Channel Follow-Ups (email/SMS/WhatsApp), Custom Sales Dashboard & Reporting.",              imageSrc: "asset://service-growth",              imageAlt: "Growth package illustration",              buttonIcon: ArrowUpRight,
-                buttonHref: "#contact"},
+                title: "Growth (~$1,500–$2,500)",                description: "Ideal for growing teams. Includes: Everything in Starter, plus Advanced Multi-Channel Follow-Ups (email/SMS/WhatsApp), Custom Sales Dashboard & Reporting.",                imageSrc: "https://img.freepik.com/free-photo/growth-package-illustration_23-2151322051.jpg",                imageAlt: "Growth package illustration",                buttonIcon: ArrowUpRight,
+                buttonHref: "#contact"
+              },
               {
-                title: "Scale (~$2,500–$4,000)",              description: "For scaling operations. Includes: Everything in Growth, plus Chatbot Lead Qualification, Full Integration with Marketing Tools (Ads, Calendly), Dedicated Account Manager.",              imageSrc: "asset://service-scale",              imageAlt: "Scale package illustration",              buttonIcon: ArrowUpRight,
-                buttonHref: "#contact"}
+                title: "Scale (~$2,500–$4,000)",                description: "For scaling operations. Includes: Everything in Growth, plus Chatbot Lead Qualification, Full Integration with Marketing Tools (Ads, Calendly), Dedicated Account Manager.",                imageSrc: "https://img.freepik.com/free-photo/scale-package-illustration_23-2151322052.jpg",                imageAlt: "Scale package illustration",                buttonIcon: ArrowUpRight,
+                buttonHref: "#contact"
+              }
             ]}
           />
         </div>
@@ -139,7 +141,7 @@ export default function WebAgency2Page() {
             rating={5}
             author="— Real Estate Brokerage CEO"
             avatars={[
-              { src: "asset://testimonial-avatar-ceo", alt: "Real Estate Brokerage CEO" },
+              { src: "https://img.freepik.com/free-photo/ceo-avatar-testimonial_23-2151322053.jpg", alt: "Real Estate Brokerage CEO" }
             ]}
             ratingAnimation="slide-up"
             avatarsAnimation="slide-up"
@@ -153,40 +155,40 @@ export default function WebAgency2Page() {
             textboxLayout="default"
             useInvertedBackground={false}
             animationType="slide-up"
-            buttons={[{ text: "Book a Call to See More Results", href: "#contact" }]
-            }
+            buttons={[{ text: "Book a Call to See More Results", href: "#contact" }]}
             buttonAnimation="slide-up"
             features={[
               {
-                title: "Client A: 30% More Conversions",              description: "Implemented an AI sales system leading to a significant boost in deal closures for a leading developer.",              bentoComponent: "icon-info-cards",              items: [
+                title: "Client A: 30% More Conversions",                description: "Implemented an AI sales system leading to a significant boost in deal closures for a leading developer.",                bentoComponent: "icon-info-cards",                items: [
                   { icon: TrendingUp, label: "Conversions", value: "+30%" },
                   { icon: Users, label: "Team Efficiency", value: "+25%" }
                 ]
               },
               {
-                title: "Client B: 2X Faster Lead Response",              description: "Automated instant responses ensuring no lead is ever missed, day or night for a growing brokerage.",              bentoComponent: "icon-info-cards",              items: [
+                title: "Client B: 2X Faster Lead Response",                description: "Automated instant responses ensuring no lead is ever missed, day or night for a growing brokerage.",                bentoComponent: "icon-info-cards",                items: [
                   { icon: Zap, label: "Response Time", value: "Instant" },
                   { icon: Monitor, label: "Lead Engagement", value: "24/7" }
                 ]
               },
               {
-                title: "Watch Our AI System in Action",              description: "See a live demo of how our AI sales system works, from inquiry capture to automated follow-up and deal close.",              bentoComponent: "media-stack",              items: [
-                  { imageSrc: "asset://loom-demo-placeholder", imageAlt: "Loom Demo Video Screenshot" },
-                  { imageSrc: "asset://loom-demo-placeholder", imageAlt: "Loom Demo Video Screenshot" },
-                  { imageSrc: "asset://loom-demo-placeholder", imageAlt: "Loom Demo Video Screenshot" }
+                title: "Watch Our AI System in Action",                description: "See a live demo of how our AI sales system works, from inquiry capture to automated follow-up and deal close.",                bentoComponent: "media-stack",                items: [
+                  { imageSrc: "https://img.freepik.com/free-photo/loom-demo-placeholder_23-2151322054.jpg", imageAlt: "Loom Demo Video Screenshot" },
+                  { imageSrc: "https://img.freepik.com/free-photo/loom-demo-placeholder_23-2151322054.jpg", imageAlt: "Loom Demo Video Screenshot" },
+                  { imageSrc: "https://img.freepik.com/free-photo/loom-demo-placeholder_23-2151322054.jpg", imageAlt: "Loom Demo Video Screenshot" }
                 ]
               },
               {
-                title: "Streamlined Workflow",              description: "Seamlessly integrate our AI tools with your existing CRM and marketing platforms for a unified sales process.",              bentoComponent: "orbiting-icons",              centerIcon: Puzzle,
+                title: "Streamlined Workflow",                description: "Seamlessly integrate our AI tools with your existing CRM and marketing platforms for a unified sales process.",                bentoComponent: "orbiting-icons",                centerIcon: Puzzle,
                 items: [
                   { icon: Shield, ring: 1 },
                   { icon: Monitor, ring: 2 },
                   { icon: Zap, ring: 3 },
-                  { icon: TrendingUp, ring: 1 },
+                  { icon: TrendingUp, ring: 1 }
                 ]
               },
               {
-                title: "Data-Driven Optimization",              description: "We continuously analyze performance data and refine your sales processes to ensure ongoing improvement and maximum ROI.",              bentoComponent: "line-chart"},
+                title: "Data-Driven Optimization",                description: "We continuously analyze performance data and refine your sales processes to ensure ongoing improvement and maximum ROI.",                bentoComponent: "line-chart"
+              }
             ]}
           />
         </div>
@@ -201,17 +203,25 @@ export default function WebAgency2Page() {
             metrics={[
               { id: "guarantee", value: "100%", title: "Satisfaction Guarantee", description: "We optimize until you see results – your success is our success.", icon: Shield },
               { id: "slots", value: "Limited", title: "Slots Available", description: "Ensuring premium, dedicated support for every client each month.", icon: Zap },
-              { id: "roi", value: "Increased", title: "Sales Performance", description: "Our systems deliver measurable improvements to your closing rates.", icon: TrendingUp },
+              { id: "roi", value: "Increased", title: "Sales Performance", description: "Our systems deliver measurable improvements to your closing rates.", icon: TrendingUp }
             ]}
           />
         </div>
         <div id="about" data-section="about">
-          <TextAbout
+          <MetricSplitMediaAbout
             tag="Who We Are"
             title="Ghoneim AI: Automating Real Estate Sales with Intelligence"
             description="Founded by industry experts, Ghoneim AI specializes in building high-performing AI sales systems exclusively for the real estate sector. Our mission is to empower developers, brokerages, and sales teams to close more deals, faster and more efficiently, leveraging cutting-g intelligence."
             useInvertedBackground={false}
-            buttonAnimation="slide-up"
+            metrics={[
+              { value: "100+", title: "Clients Served" },
+              { value: "500+", title: "Deals Automated" },
+              { value: "3X", title: "Efficiency Boost" }
+            ]}
+            imageSrc="https://img.freepik.com/premium-photo/futuristic-ai-dashboard-real-estate-office_849788-2983.jpg" 
+            imageAlt="Modern real estate office with AI system"
+            mediaAnimation="slide-up"
+            metricsAnimation="slide-up"
           />
         </div>
         <div id="faq" data-section="faq">
@@ -253,23 +263,23 @@ export default function WebAgency2Page() {
                 { label: "How It Works", href: "#how-it-works" },
                 { label: "Case Studies", href: "#case-studies" },
                 { label: "FAQ", href: "#faq" },
-                { label: "Contact", href: "#contact" },
-              ],
+                { label: "Contact", href: "#contact" }
+              ]
             },
             {
               title: "Services",              items: [
                 { label: "AI Lead Response", href: "#services" },
                 { label: "Automated Follow-Ups", href: "#services" },
                 { label: "CRM Integration", href: "#services" },
-                { label: "Sales Performance", href: "#services" },
-              ],
+                { label: "Sales Performance", href: "#services" }
+              ]
             },
             {
               title: "Legal",              items: [
                 { label: "Privacy Policy", href: "#" },
-                { label: "Terms of Service", href: "#" },
-              ],
-            },
+                { label: "Terms of Service", href: "#" }
+              ]
+            }
           ]}
         />
       </ReactLenis>
