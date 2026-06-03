@@ -8,8 +8,8 @@ import FeatureBento from "@/components/sections/feature/FeatureBento";
 import FeatureCardTwentySix from "@/components/sections/feature/FeatureCardTwentySix";
 import FeatureCardSixteen from "@/components/sections/feature/FeatureCardSixteen";
 import MetricCardOne from "@/components/sections/metrics/MetricCardOne";
-import TeamCardFive from "@/components/sections/team/TeamCardFive";
-import FaqBase from "@/components/sections/faq/FaqBase";
+import TextAbout from "@/components/sections/about/TextAbout";
+import FaqSplitText from "@/components/sections/faq/FaqSplitText";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterBase from "@/components/sections/footer/FooterBase";
 import TestimonialCardFifteen from "@/components/sections/testimonial/TestimonialCardFifteen";
@@ -195,32 +195,26 @@ export default function WebAgency2Page() {
             { id: "roi", value: "Increased", title: "Sales Performance", description: "Our systems deliver measurable improvements to your closing rates.", icon: TrendingUp },
           ]}
         />
-        <TeamCardFive
+        <TextAbout
           id="about"
-          title="About Ghoneim AI"
-          description="Founded by industry experts, Ghoneim AI specializes in building high-performing AI sales systems exclusively for the real estate sector. Our mission is to empower developers, brokerages, and sales teams to close more deals, faster and more efficiently."
-          textboxLayout="default"
+          tag="Who We Are"
+          title="Ghoneim AI: Automating Real Estate Sales with Intelligence"
+          description="Founded by industry experts, Ghoneim AI specializes in building high-performing AI sales systems exclusively for the real estate sector. Our mission is to empower developers, brokerages, and sales teams to close more deals, faster and more efficiently, leveraging cutting-edge AI technology."
           useInvertedBackground={false}
-          animationType="slide-up"
-          mediaClassName="object-[65%_center]"
-          team={[
-            { id: "1", name: "[Founder Name]", role: "Founder & AI Strategist", imageSrc: "asset://team-member-1", imageAlt: "Founder" },
-            { id: "2", name: "[AI Expert Name]", role: "Head of AI Systems", imageSrc: "asset://team-member-2", imageAlt: "AI Expert" },
-            { id: "3", name: "[Automation Lead Name]", role: "Automation Engineer Lead", imageSrc: "asset://team-member-3", imageAlt: "Automation Lead" },
-          ]}
+          buttonAnimation="slide-up"
         />
-        <FaqBase
+        <FaqSplitText
           id="faq"
-          title="Frequently Asked Questions"
-          description="Answers to common questions about our AI sales systems and how we can help your real estate business."
-          textboxLayout="default"
-          useInvertedBackground={false}
+          sideTitle="Common Questions"
+          sideDescription="Get clear answers about Ghoneim AI and how our solutions streamline your real estate sales."
           faqsAnimation="slide-up"
+          useInvertedBackground={false}
           faqs={[
-            { id: "1", title: "Is this real AI or just automation?", content: "Ghoneim AI uses real AI-powered tools (like smart chatbots and predictive triggers) integrated into proven automation workflows. You benefit from cutting-edge tech without any technical work on your side." },
-            { id: "2", title: "What if my team is small?", content: "Even small teams save significant time and increase efficiency: our Starter plan handles routine tasks so your team can focus on high-value selling activities." },
-            { id: "3", title: "How quickly will I see results?", content: "Many clients experience faster lead response within days and observe a positive revenue impact within weeks. We aim for quick wins and continuous, measurable improvement." },
-            { id: "4", title: "What if I’m not satisfied?", content: "We have a satisfaction guarantee: if the system doesn’t meet agreed-upon KPIs, we’ll continue working with you to optimize it, or offer a refund/discount. Your success is our ultimate success." },
+            { id: "1", title: "Is this real AI or just automation?", content: "Ghoneim AI leverages genuine artificial intelligence (including machine learning for lead scoring and natural language processing for dynamic chatbot interactions) deeply integrated into robust automation workflows. This means intelligent decision-making and dynamic responses, not just pre-set sequences." },
+            { id: "2", title: "What if my team is small?", content: "Our solutions are designed to scale with your business. Even small teams experience significant gains in efficiency, allowing them to handle more leads and close more deals without expanding headcount. Our Starter plan is perfect for optimizing existing resources." },
+            { id: "3", title: "How quickly will I see results?", content: "Clients typically observe immediate improvements in lead response times within days. Measurable impacts on lead qualification rates and sales pipeline efficiency often become apparent within the first 4-6 weeks, with continuous optimization leading to sustained growth." },
+            { id: "4", title: "What if I’m not satisfied?", content: "We are committed to your success. Ghoneim AI offers a satisfaction guarantee; if our system does not meet the agreed-upon Key Performance Indicators (KPIs), we will actively work with you to refine and optimize until it does, or explore other solutions, including a refund option." },
+            { id: "5", title: "How does Ghoneim AI integrate with my existing CRM?", content: "Our systems are built for seamless integration. We connect with all major real estate CRM platforms and marketing tools (e.g., Salesforce, HubSpot, Follow Up Boss, Mailchimp, Calendly), ensuring a unified and efficient sales ecosystem." }
           ]}
         />
         <ContactCTA
@@ -230,7 +224,7 @@ export default function WebAgency2Page() {
           description="Book a free strategy call and discover how Ghoneim AI can build an intelligent sales system tailored for your real estate business. It's time to automate your growth."
           background={{ variant: "rotated-rays-animated" }}
           buttons={[
-            { text: "Book My Free Call", href: "#" } // Placeholder for Calendly link
+            { text: "Book My Free Call", href: "https://calendly.com/your-ghoneim-ai-link" } // Placeholder for Calendly link
           ]}
           buttonAnimation="slide-up"
           useInvertedBackground={false}
