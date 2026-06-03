@@ -246,7 +246,7 @@ export default function WebAgency2Page() {
             description="Book a free strategy call and discover how Ghoneim AI can build an intelligent sales system tailored for your real estate business. It's time to automate your growth."
             background={{ variant: "rotated-rays-animated" }}
             buttons={[
-              { text: "Book My Free Call", href: "https://calendly.com/your-ghoneim-ai-link" } // Placeholder for Calendly link
+              { text: "Book My Free Call", href: "https://form.jotform.com/261068168241557" }
             ]}
             buttonAnimation="slide-up"
             useInvertedBackground={false}
