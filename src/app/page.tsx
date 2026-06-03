@@ -63,7 +63,7 @@ export default function WebAgency2Page() {
               { imageSrc: "https://img.freepik.com/free-photo/futuristic-real-estate-concept_23-2151322047.jpg", imageAlt: "Futuristic real estate concept" }
             ]}
             rightCarouselItems={[
-              { imageSrc: "https://img.freepik.com/premium-photo/futuristic-ai-dashboard-real-estate-office_849788-2983.jpg", imageAlt: "Modern real estate office with AI overlay" },
+              { imageSrc: "https://img.freepik.com/premium-photo/futuristic-ai-dashboard-real-estate-office_849788-2983.jpg?_wi=1", imageAlt: "Modern real estate office with AI overlay" },
               { imageSrc: "https://img.freepik.com/free-photo/fast-lead-response-illustration_23-2151322045.jpg", imageAlt: "Fast lead response illustration" },
               { imageSrc: "https://img.freepik.com/free-photo/automated-follow-up-system_23-2151322049.jpg", imageAlt: "Automated follow-up system" }
             ]}
@@ -172,9 +172,9 @@ export default function WebAgency2Page() {
               },
               {
                 title: "Watch Our AI System in Action",                description: "See a live demo of how our AI sales system works, from inquiry capture to automated follow-up and deal close.",                bentoComponent: "media-stack",                items: [
-                  { imageSrc: "https://img.freepik.com/free-photo/loom-demo-placeholder_23-2151322054.jpg", imageAlt: "Loom Demo Video Screenshot" },
-                  { imageSrc: "https://img.freepik.com/free-photo/loom-demo-placeholder_23-2151322054.jpg", imageAlt: "Loom Demo Video Screenshot" },
-                  { imageSrc: "https://img.freepik.com/free-photo/loom-demo-placeholder_23-2151322054.jpg", imageAlt: "Loom Demo Video Screenshot" }
+                  { imageSrc: "https://img.freepik.com/free-photo/loom-demo-placeholder_23-2151322054.jpg?_wi=1", imageAlt: "Loom Demo Video Screenshot" },
+                  { imageSrc: "https://img.freepik.com/free-photo/loom-demo-placeholder_23-2151322054.jpg?_wi=2", imageAlt: "Loom Demo Video Screenshot" },
+                  { imageSrc: "https://img.freepik.com/free-photo/loom-demo-placeholder_23-2151322054.jpg?_wi=3", imageAlt: "Loom Demo Video Screenshot" }
                 ]
               },
               {
@@ -218,7 +218,7 @@ export default function WebAgency2Page() {
               { value: "500+", title: "Deals Automated" },
               { value: "3X", title: "Efficiency Boost" }
             ]}
-            imageSrc="https://img.freepik.com/premium-photo/futuristic-ai-dashboard-real-estate-office_849788-2983.jpg" 
+            imageSrc="https://img.freepik.com/premium-photo/futuristic-ai-dashboard-real-estate-office_849788-2983.jpg?_wi=2" 
             imageAlt="Modern real estate office with AI system"
             mediaAnimation="slide-up"
             metricsAnimation="slide-up"
